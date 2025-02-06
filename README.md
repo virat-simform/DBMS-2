@@ -180,7 +180,7 @@ Result:
 ![Image](https://github.com/user-attachments/assets/0c106fff-60cc-43ff-b566-135161df84a9)
 
 
-3. **Perform indexing on particular 3 fields in MongoDB.**
+Q:3. **Perform indexing on particular 3 fields in MongoDB.**
 
 Query:
 
@@ -193,7 +193,7 @@ Result:
 ![Image](https://github.com/user-attachments/assets/530d1e49-e3e7-4c41-8ed8-afab4bafe4c7)
 
 
-4. **Find duplicates using aggregation in MongoDB**
+Q:4. **Find duplicates using aggregation in MongoDB**
 
 Query:
 
