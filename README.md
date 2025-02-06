@@ -10,21 +10,33 @@ mongosh "mongodb+srv://cluster0.azzjb.mongodb.net/" --apiVersion 1 --username vi
 ```
 
 2. **Check current Database**
+   
+To check the current databases available:
+
 ```bash
 show dbs
 ```
 
+![Image](https://github.com/user-attachments/assets/335d4099-f6af-4347-a2ae-eb304dfa7ccd)
+
 3. **Create & Switch to database**
+
+This will create the database and switch:
+
 ```bash
 use DBMS-2
 ```
+
+![Image](https://github.com/user-attachments/assets/f200b9c3-ec90-42eb-8a21-3b70cc70f1f6)
 
 4. **Create Collection**
 ```bash
 db.createCollection("my_collection")
 ```
 
-5. **Create Collection**
+![Image](https://github.com/user-attachments/assets/b2044653-3b62-4104-91af-b45403ca0f13)
+
+5. **List down Collections**
 ```bash
 db.getCollectionNames()
 ```
