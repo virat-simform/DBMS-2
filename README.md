@@ -41,6 +41,8 @@ db.createCollection("my_collection")
 db.getCollectionNames()
 ```
 
+![Image](https://github.com/user-attachments/assets/379985d9-2a1c-4619-ac8e-a71a63e22a3d)
+
 ## Operations:
 
 Q:1. **Batch Create with minimum 100 records in MongoDb (create batch).**
