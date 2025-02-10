@@ -185,12 +185,14 @@ Q:3. **Perform indexing on particular 3 fields in MongoDB.**
 Query:
 
 ```bash
-db.my_collection.createIndex({ name: 1, age: 1, city: 1});
+db.my_collection.createIndex({ name: 1 });
+db.my_collection.createIndex({ age: 1 });
+db.my_collection.createIndex({ city: 1 });
 ```
 
 Result:
 
-![Image](https://github.com/user-attachments/assets/530d1e49-e3e7-4c41-8ed8-afab4bafe4c7)
+![Image](https://github.com/user-attachments/assets/3535fff9-d023-4d59-8542-1b16aaa25c24)
 
 
 Q:4. **Find duplicates using aggregation in MongoDB**
