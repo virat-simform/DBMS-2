@@ -133,7 +133,9 @@ db.my_collection.updateMany(
 );
 
 //Q:3. Perform indexing on particular 3 fields in MongoDB.
-db.my_collection.createIndex({ name: 1, age: 1, city: 1 });
+db.my_collection.createIndex({ name: 1 });
+db.my_collection.createIndex({ age: 1 });
+db.my_collection.createIndex({ city: 1 });
 
 //Q:4. Find duplicates using aggregation in MongoDB
 db.my_collection.aggregate([
